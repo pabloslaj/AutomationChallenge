@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.demoblaze.listeners.TestListener"></listener>
+        <listener class-name="com.demoblaze.listeners.MethodInterceptor"></listener>
+        <listener class-name="com.demoblaze.listeners.AnnotationTransformer"></listener>
+    </listeners>
+
+    <test name="Complete Suite">
+        <classes>
+            <class name="com.demoblaze.testcases.LoginTests"/>
+            <class name="com.demoblaze.testcases.SignUpTests"/>
+            <class name="com.demoblaze.testcases.PlaceOrderTests"/>
+            <class name="com.demoblaze.testcases.ProductStoreTests"/>
+            <class name="com.demoblaze.testcases.CartTests"/>
+        </classes>
+    </test>
+</suite>
