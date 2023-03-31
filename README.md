@@ -1,7 +1,7 @@
 # AutomationChallenge
 Test - QA Automation Engineer
 
-Automation framework to test [title](https://www.demoblaze.com/) web application 
+Automation framework to test [Demoblaze](https://www.demoblaze.com/) web application 
 
 - This framework was developed using Page Object model
 
